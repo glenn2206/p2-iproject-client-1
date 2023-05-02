@@ -3,13 +3,14 @@ import App from './App.vue'
 import router from './router'
 import store from './store'
 import 'bootstrap/dist/css/bootstrap.min.css'
+import 'bootstrap'
 import VueSweetalert2 from 'vue-sweetalert2'
 import 'sweetalert2/dist/sweetalert2.min.css'
 import { BootstrapVueIcons } from 'bootstrap-vue'
 import VueSocketIOExt from 'vue-socket.io-extended'
 import { io } from 'socket.io-client'
 
-const socket = io('https://travelyuk.herokuapp.com')
+const socket = io('http://localhost:3000')
 
 Vue.use(VueSocketIOExt, socket, { store })
 

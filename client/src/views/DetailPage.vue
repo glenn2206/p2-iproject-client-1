@@ -1,5 +1,5 @@
 <template>
-<div class="wraper vh-100" style='background-color: #FFDEE9;
+<div class="wraper" style='background-color: #FFDEE9;
 background-image: linear-gradient(0deg, #FFDEE9 0%, #B5FFFC 100%);
 '>
   <div class="container p-2">

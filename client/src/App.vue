@@ -36,4 +36,8 @@ export default {
 #nav a.router-link-exact-active {
   color: #42b983;
 }
+
+.mt-30 {
+  margin-top: 30px;
+}
 </style>
