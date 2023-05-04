@@ -1,9 +1,6 @@
 <template>
-    <section class="vh-100" style='background-color: #FFE53B;
-background-image: linear-gradient(147deg, #FFE53B 0%, #FF2525 74%);
-'>
-  <div class="container-fluid h-custom">
-    <div class="row d-flex justify-content-center align-items-center h-100">
+  <section class="register-section">
+    <div class="row d-flex justify-content-center align-items-center mh-100">
       <div class="col-md-9 col-lg-6 col-xl-5">
         <img src="https://mdbcdn.b-cdn.net/img/Photos/new-templates/bootstrap-login-form/draw2.webp" class="img-fluid"
           alt="Sample image">
@@ -35,8 +32,7 @@ background-image: linear-gradient(147deg, #FFE53B 0%, #FF2525 74%);
         </form>
       </div>
     </div>
-  </div>
-</section>
+  </section>
 </template>
 
 <script>
@@ -79,5 +75,12 @@ export default {
 </script>
 
 <style>
+.register-section {
+  background-color: #FFE53B;
+  background-image: linear-gradient(147deg, #FFE53B 0%, #FF2525 74%);
+}
 
+.mh-100 {
+  min-height: 100vh;
+}
 </style>
